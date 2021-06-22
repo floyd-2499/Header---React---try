@@ -1,0 +1,66 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 100%;
+  /* background-color: violet; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  /* background-color: rgb(236, 157, 157); */
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.logo .logo-icon {
+  font-size: 30px;
+}
+.logo .logo-icon i {
+  color: rgb(212, 35, 22);
+}
+.logo .name p{
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+}
+.navlinks {
+  width: 40%;
+}
+.navlinks .links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.a,
+.b {
+  list-style: none;
+}
+.a a{
+  text-decoration: none;
+  font-size: 18px;
+}
+.mediaicons{
+    width: 10%;
+}
+.mediaicons .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .icons .b a{
+      color: rgb(9, 9, 85);
+      font-size: 25px;
+      text-decoration: none;
+  }
